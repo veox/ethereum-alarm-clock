@@ -24,6 +24,7 @@ else
     # cached version present, just install package dependencies
     cd solc-versions
     cd solidity-0.3.6
+    ls -al
     ./scripts/install_deps.sh
     echo "Geth already installed at $PWD/solc/solc-0.3.6"
 fi
