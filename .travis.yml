@@ -31,7 +31,7 @@ install:
   - python setup.py install
 before_script:
   - find $TRAVIS_BUILD_DIR/solc-versions/ -exec file {} \;
-  - ./solc-versions/solc-$SOLC_VERSION/solc --version
+  - $SOLC_BINARY --version
   - mkdir -p $HOME/.ethash
   - geth makedag 0 $HOME/.ethash
 script:
