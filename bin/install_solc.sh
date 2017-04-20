@@ -32,3 +32,4 @@ fi
 # DEBUG
 ls -l $SOLC_BINARY
 file $SOLC_BINARY
+ldd $SOLC_BINARY
