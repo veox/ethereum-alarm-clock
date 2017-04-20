@@ -18,7 +18,7 @@ cache:
   - directories:
     - $HOME/.ethash
     - $TRAVIS_BUILD_DIR/solc-versions/binary-$SOLC_VERSION/
-    - $TRAVIS_BUILD_DIR/solc-versions/source-$SOLC_VERSION/scripts/
+    - $TRAVIS_BUILD_DIR/solc-versions/source-$SOLC_VERSION/
 before_install:
   - sudo add-apt-repository -y ppa:ethereum/ethereum
   - sudo apt-get update
