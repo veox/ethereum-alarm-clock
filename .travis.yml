@@ -8,10 +8,10 @@ env:
     - SOLC_VERSION="0.4.8"
   matrix:
     - TEST_DIR=block-scheduling
-#    - TEST_DIR=timestamp-scheduling
-#    - TEST_DIR=request-factory
-#    - TEST_DIR=request-tracker
-#    - TEST_DIR=transaction-request
+    - TEST_DIR=timestamp-scheduling
+    - TEST_DIR=request-factory
+    - TEST_DIR=request-tracker
+    - TEST_DIR=transaction-request
 cache:
   - pip: true
   - directories:
